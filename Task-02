@@ -1,0 +1,14 @@
+def numbers_list(numbers):
+    numbers = []
+    for num in numbers:
+        if num not in numbers:
+            unique.append(num)
+    return numbers
+
+print("Welcome! Let's remove duplicates from a list ")
+
+sample_list = [1, 2, 3, 3, 4, 4, 5, 3, 7, 5]
+print("Original List:", sample_list)
+
+numbers = numbers_list(sample_list)
+print("List with Unique Elements:", numbers_list)
