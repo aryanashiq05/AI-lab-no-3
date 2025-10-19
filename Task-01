@@ -17,6 +17,3 @@ num = int(input("Enter a non-negative integer: "))
 print(f"The factorial of {num} is {factorial(num)}")
 
 
-Welcome to fimd the factorial of a number
-Enter a non-negative integer: 5
-The factorial of 5 is 120
