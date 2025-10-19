@@ -1,0 +1,15 @@
+def match_strings(str1, str2):
+    if str1 == str2:
+        return True
+    else:
+        return False
+
+print("Let's check if two strings match")
+
+first = input("Enter the first string: ")
+second = input("Enter the second string: ")
+
+if match_strings(first, second):
+    print("Both strings are the same.")
+else:
+    print("The strings do not match.")
