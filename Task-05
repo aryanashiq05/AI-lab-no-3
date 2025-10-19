@@ -1,0 +1,15 @@
+def login_system(username, password):
+    if username == "admin" and password == "12345":
+        return True
+    else:
+        return False
+
+print("Welcome to the User Login System")
+
+user = input("Enter your username: ")
+pwd = input("Enter your password: ")
+
+if login_system(user, pwd):
+    print("Login successful! Welcome,", user)
+else:
+    print("Login failed. Please check your username or password and try again.")
