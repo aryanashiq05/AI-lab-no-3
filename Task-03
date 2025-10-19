@@ -1,0 +1,26 @@
+def even_numbers(n):
+    evens = []
+    num = 2
+    count = 0
+
+    while count < n:
+        evens.append(num)
+        num += 2
+        count += 1
+
+    print("First", n, "even numbers:", evens)
+    return evens
+
+
+n = int(input("Enter how many even numbers: "))
+
+numbers = even_numbers(n)
+
+sum_even = sum(numbers)
+product_even = 1
+
+for i in numbers:
+    product_even *= i
+
+print("Sum:", sum_even)
+print("Product:", product_even)
